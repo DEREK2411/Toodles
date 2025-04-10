@@ -1,7 +1,7 @@
 from flask import Flask
 from routes import init_routes
 from database import init_db
-# import os
+import os
 
 app = Flask(__name__)
 
